@@ -1,0 +1,3 @@
+# Have make (and makepkg) use full cpu for compiling
+export PATH="/usr/lib/ccache/bin/:$PATH"
+export MAKEFLAGS="-j13 -l12"

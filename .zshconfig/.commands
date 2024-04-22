@@ -1,0 +1,7 @@
+for commandf in $MY_ZSH_CONFIG/commands/**/*; do
+    if [[ -e "$commandf" ]] then
+        source $commandf
+    else
+        echo "warn: failed to source command file '$commandf'!"
+    fi
+done

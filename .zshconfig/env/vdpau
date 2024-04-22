@@ -1,0 +1,2 @@
+# Fix VDPAU driver
+export VDPAU_DRIVER=radeonsi
