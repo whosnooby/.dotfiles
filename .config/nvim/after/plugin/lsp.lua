@@ -29,7 +29,7 @@ lsp.setup_nvim_cmp({
   mapping = cmp_mappings
 })
 
--- you've got attachement issues, lsp-zero...
+-- you've got attachment issues, lsp-zero...
 lsp.on_attach(function(client, bufnr)
   local opts = {buffer = bufnr, remap = false}
 
