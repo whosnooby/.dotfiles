@@ -1,6 +1,9 @@
 -- (p)roject (open) - open project directory
 vim.keymap.set('n', '<leader>po', vim.cmd.Ex)
 
+-- switch between source and header files
+vim.keymap.set('n', '<leader>/', vim.cmd.ClangdSwitchSourceHeader or print("Error: not a C/C++ file.")) 
+
 -- uppercase J and K move selected code blocks around
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
