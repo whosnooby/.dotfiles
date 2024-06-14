@@ -10,5 +10,5 @@ source "$MY_ZSH_CONFIG/.aliases"
 # Include commands
 source "$MY_ZSH_CONFIG/.commands"
 
-# neofetch <3
-/usr/bin/neofetch
+# fastfetch <3
+/usr/bin/fastfetch
