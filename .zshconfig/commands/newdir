@@ -1,9 +1,0 @@
-# newdir - makes a directory and enters it
-newdir() {
-  if [[ -n "$1" ]] then
-    mkdir $1
-    cd $1
-  else
-    echo "error: please provide directory name"
-  fi
-}

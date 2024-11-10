@@ -1,8 +1,0 @@
-# Use a cool theme
-ZSH_THEME="nooby-magic"
-
-# Show text when waiting for command completion
-COMPLETION_WAITING_DOTS="%F{yellow}completing...%f"
-
-# Use oh-my-zsh
-source "$ZSH/oh-my-zsh.sh" 

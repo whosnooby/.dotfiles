@@ -10,8 +10,12 @@
     "display": {
         "separator": "  ",
         "color": "magenta",
-        "keyWidth": 9,
-        "binaryPrefix": "iec",
+        "key": {
+            "width": 9
+        },
+        "size": {
+            "binaryPrefix": "iec",
+        }
     },
     "modules": [
         {
@@ -49,6 +53,7 @@
         {
             "type": "wm",
             "key": "wm",
+            "format": "{pretty-name}"
         },
         {
             "type": "shell",

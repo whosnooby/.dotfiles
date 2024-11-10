@@ -1,7 +1,0 @@
-for aliasf in $MY_ZSH_CONFIG/aliases/**/*; do
-    if [[ -e "$aliasf" ]] then
-        source $aliasf
-    else
-        echo "warn: failed to source alias file '$aliasf'!"
-    fi
-done

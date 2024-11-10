@@ -1,2 +1,0 @@
-# Force Firefox to use wayland
-export MOZ_ENABLE_WAYLAND=1

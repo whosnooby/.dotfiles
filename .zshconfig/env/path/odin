@@ -1,2 +1,0 @@
-# Add Odin binaries to path
-export PATH="$HOME/clone/Odin:$PATH"

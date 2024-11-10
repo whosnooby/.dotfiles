@@ -1,3 +1,0 @@
-# Add cargo binaries by sourcing the environment file
-source $HOME/.cargo/env
-

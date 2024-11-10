@@ -1,2 +1,0 @@
-# dir - open file in file explorer app
-alias dir="xdg-open ."
